@@ -1,0 +1,59 @@
+.body-music{
+    background: url(../img/fondo-oro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_goldmusic{
+    width: 150px;
+    margin: 10px 25px 10px 25px;
+}
+.red_soc{
+    width: 30px;
+    margin-top: 77%;
+}
+.navbar{
+  margin: 0;
+}
+.boton-nav{
+  width: 100%;
+  background-color: grey;
+  opacity: 0.7;
+  color: white;
+}
+.row{
+  background-color: rgb(0,0,0,0.6);
+  padding: 10px;
+}
+.contenido{
+  color: white;
+}
+.img_contenido, .img_comentario{
+  width: 100%;
+  padding: 5%;
+}
+.icono-buscar{
+  background-color: #D5D8DC;
+  padding: 0;
+  border-radius: 6px 0px 0px 6px;
+}
+.ico-busc{
+  width: 29px;
+}
+@media(max-width: 991px){
+  .red_soc{
+    margin: 0px;
+  }
+  .buscador{
+    display: none;
+  }
+}
+@media(max-width:300px){
+  .img_comentario{
+    width: 25px;
+  }
+}
